@@ -7,80 +7,44 @@
     <title>Montivero Marcio</title>
     <!-- Styles SCSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/a0faba7661.js" crossorigin="anonymous"></script>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
 
-    <header>
-        <nav class="navbar">
-            <div>
-                <a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+    <!-- header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__logo">
+                <a href="#" class="nav__logo">Marcio</a>
             </div>
-            <ul class="navbar-nav">
-                <li class="navbar-item" href="#about">About</a></li>
-                <li class="navbar-item" href="#skill">Skills</a></li>
-                <li class="navbar-item" href="#portfolio">Portfolio</a></li>
-                <li class="navbar-item" href="#experience">Experience</a></li>
-                <li class="navbar-item" href="#contact">Contact</a></li>
-              </ul>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
         </nav>
     </header>
 
-    <seccion class="profile-brand">
-        <div>
-            <a href="#"><img src="images/anthony.jpg" alt="Image-profile"/></a>
-        </div>
-        <div>
-            <h2>Marcio Montivero</h2>
-            <p>Web Developer</p>
-        </div>
-        <div>
-            <a href="#contact">Hire Me</a>
-            <a>Download CV</a>
-        </div>
-        
-        <div>
-            <a href="#" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-            <a href="#" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
-        </div>
-    </seccion>
-
-    <section class="seccion">
     
-        <div>
-            <div>About</div>
-            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
-            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience.></p>
-        </div>
-        
-        <div>
-            <div>Basic Information</div>
-
-            <div><strong>Age:</strong></div>
-            <div>24</div>
-
-            <div><strong>Email:</strong></div>
-            <div>anthony@company.com</div>
-
-            <div><strong>Phone:</strong></div>
-            <div>+1718-111-0011</div>
-
-            <div><strong>Address:</strong></div>
-            <div>140, City Center, New York, U.S.A</div>
-
-            <div><strong>Language:</strong></div>
-            <div>English, German, French</div>
-        </div>
-
-    </section>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main -->
+    <script src="scripts/main.js"></script>
 
 </body>
 </html>
