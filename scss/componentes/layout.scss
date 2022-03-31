@@ -6,6 +6,11 @@
     width: calc(100%) - 2rem;
     margin-left: $--mb-2;
     margin-right: $--mb-2;
+
+    @media screen and (min-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .l-header {
