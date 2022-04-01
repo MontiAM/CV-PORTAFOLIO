@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
 *::before, ::after {
   box-sizing: border-box; }
 
@@ -275,8 +276,14 @@ html {
 .skills__js {
   width: 80%; }
 
-.skills__ux {
-  width: 70%; }
+.skills__git {
+  width: 80%; }
+
+.skills__py {
+  width: 80%; }
+
+.skills__sql {
+  width: 80%; }
 
 .skills__img {
   border-radius: .5rem; }
