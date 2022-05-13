@@ -53,3 +53,9 @@ sr.reveal('.work__img', {interval: 200});
 // Scroll Contact --------------------------------------------------
 sr.reveal('.contact__input', {interval: 200});
 
+// Start Presentation ----------------------------------------------------------------
+const toResumate = document.getElementById('to-resumate')
+toResumate.addEventListener('click', () => {
+    const preloader = document.getElementById('preloader')
+    preloader.style.top = '-100%'
+})

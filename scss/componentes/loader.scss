@@ -1,0 +1,17 @@
+.preloader {
+    background: $--second-color url('../../img/loading.gif') center;
+    background-size: 20%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 101;
+    transition: .5s;
+
+    &-btn {
+        cursor: pointer;
+        z-index: 102; 
+        box-shadow: 0 5px 36px rgba(0, 0, 0, .15);;
+    }
+}
+

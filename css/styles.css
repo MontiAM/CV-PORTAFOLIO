@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
+.mod {
+  background-color: #0e2431;
+  border-radius: .5rem;
+  z-index: 100; }
+
 *::before, ::after {
   box-sizing: border-box; }
 
@@ -193,6 +198,7 @@ html {
         right: 10%; } }
 
 .button {
+  cursor: pointer;
   display: inline-block;
   background-color: #4070f4;
   color: #fff;
@@ -298,6 +304,9 @@ html {
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem; } }
   .work__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 4px 25px rgba(14, 35, 49, 0.15);
     border-radius: .5rem;
     overflow: hidden; }
@@ -306,6 +315,8 @@ html {
       cursor: pointer; }
       .work__img img:hover {
         transform: scale(1.1); }
+    .work__img-btn {
+      margin: 5px 0; }
 
 .contact__input {
   width: 100%;
@@ -350,3 +361,17 @@ html {
     font-size: 1.5rem;
     color: #fff;
     margin: 0 1rem; }
+
+.preloader {
+  background: #0e2431 url("../../img/loading.gif") center;
+  background-size: 20%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 101;
+  transition: .5s; }
+  .preloader-btn {
+    cursor: pointer;
+    z-index: 102;
+    box-shadow: 0 5px 36px rgba(0, 0, 0, 0.15); }
